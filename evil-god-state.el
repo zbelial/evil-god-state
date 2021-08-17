@@ -117,7 +117,9 @@
   (interactive)
   (evil-stop-execute-in-god-state)
   (evil-god-stop-hook)
-  (evil-normal-state))
+  (evil-normal-state)
+  (evil-echo "Exit God state ...")
+  )
 
 (provide 'evil-god-state)
 ;;; evil-god-state.el ends here
